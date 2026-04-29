@@ -1,0 +1,39 @@
+name,year,attacker_king,defender_king,attacker_1,defender_1,attacker_outcome,battle_type,major_death,major_capture,location,region
+Battle of the Golden Tooth,298,Joffrey/Tommen Baratheon,Robb Stark,Lannister,Tully,win,pitched battle,1.0,0.0,Golden Tooth,The Westerlands
+Battle at the Mummer's Ford,298,Joffrey/Tommen Baratheon,Robb Stark,Lannister,Baratheon,win,ambush,1.0,0.0,Mummer's Ford,The Riverlands
+Battle of Riverrun,298,Joffrey/Tommen Baratheon,Robb Stark,Lannister,Tully,win,pitched battle,0.0,1.0,Riverrun,The Riverlands
+Battle of the Green Fork,298,Robb Stark,Joffrey/Tommen Baratheon,Stark,Lannister,loss,pitched battle,1.0,1.0,Green Fork,The Riverlands
+Battle of the Whispering Wood,298,Robb Stark,Joffrey/Tommen Baratheon,Stark,Lannister,win,ambush,1.0,1.0,Whispering Wood,The Riverlands
+Battle of the Camps,298,Robb Stark,Joffrey/Tommen Baratheon,Stark,Lannister,win,ambush,0.0,0.0,Riverrun,The Riverlands
+Sack of Darry,298,Joffrey/Tommen Baratheon,Robb Stark,Lannister,Darry,win,pitched battle,0.0,0.0,Darry,The Riverlands
+Battle of Moat Cailin,299,Balon/Euron Greyjoy,Robb Stark,Greyjoy,Stark,win,pitched battle,0.0,0.0,Moat Cailin,The North
+Battle of Deepwood Motte,299,Balon/Euron Greyjoy,Robb Stark,Greyjoy,Stark,win,siege,0.0,0.0,Deepwood Motte,The North
+Battle of the Stony Shore,299,Balon/Euron Greyjoy,Robb Stark,Greyjoy,Stark,win,ambush,0.0,0.0,Stony Shore,The North
+Battle of Torrhen's Square,299,Robb Stark,Balon/Euron Greyjoy,Stark,Greyjoy,win,pitched battle,0.0,0.0,Torrhen's Square,The North
+Battle of Winterfell,299,Balon/Euron Greyjoy,Robb Stark,Greyjoy,Stark,win,ambush,0.0,1.0,Winterfell,The North
+Sack of Torrhen's Square,299,Balon/Euron Greyjoy,Balon/Euron Greyjoy,Greyjoy,Stark,win,siege,0.0,1.0,Torrhen's Square,The North
+Sack of Winterfell,299,Joffrey/Tommen Baratheon,Robb Stark,Bolton,Stark,win,ambush,1.0,0.0,Winterfell,The North
+Battle of Oxcross,299,Robb Stark,Joffrey/Tommen Baratheon,Stark,Lannister,win,ambush,1.0,1.0,Oxcross,The Westerlands
+Siege of Storm's End,299,Stannis Baratheon,Renly Baratheon,Baratheon,Baratheon,win,siege,1.0,0.0,Storm's End,The Stormlands
+Battle of the Fords,299,Joffrey/Tommen Baratheon,Robb Stark,Lannister,Tully,loss,pitched battle,0.0,0.0,Red Fork,The Riverlands
+Sack of Harrenhal,299,Robb Stark,Joffrey/Tommen Baratheon,Stark,Lannister,win,ambush,1.0,0.0,Harrenhal,The Riverlands
+Battle of the Crag,299,Robb Stark,Joffrey/Tommen Baratheon,Stark,Lannister,win,ambush,0.0,0.0,Crag,The Westerlands
+Battle of the Blackwater,299,Stannis Baratheon,Joffrey/Tommen Baratheon,Baratheon,Lannister,loss,pitched battle,1.0,1.0,King's Landing,The Crownlands
+Siege of Darry,299,Robb Stark,Joffrey/Tommen Baratheon,Darry,Lannister,win,siege,0.0,0.0,Darry,The Riverlands
+Battle of Duskendale,299,Robb Stark,Joffrey/Tommen Baratheon,Stark,Lannister,loss,pitched battle,1.0,0.0,Duskendale,The Crownlands
+Battle of the Burning Septry,299,Unknown,Unknown,Brotherhood without Banners,Brave Companions,win,pitched battle,0.0,0.0,,The Riverlands
+Battle of the Ruby Ford,299,Joffrey/Tommen Baratheon,Robb Stark,Lannister,Stark,win,pitched battle,0.0,0.0,Ruby Ford,The Riverlands
+Retaking of Harrenhal,299,Joffrey/Tommen Baratheon,Unknown,Lannister,Brave Companions,win,pitched battle,1.0,0.0,Harrenhal,The Riverlands
+The Red Wedding,299,Joffrey/Tommen Baratheon,Robb Stark,Frey,Stark,win,ambush,1.0,1.0,The Twins,The Riverlands
+Siege of Seagard,299,Robb Stark,Joffrey/Tommen Baratheon,Frey,Mallister,win,siege,0.0,1.0,Seagard,The Riverlands
+Battle of Castle Black,300,Stannis Baratheon,Mance Rayder,Free folk,Night's Watch,loss,siege,1.0,1.0,Castle Black,Beyond the Wall
+Fall of Moat Cailin,300,Joffrey/Tommen Baratheon,Balon/Euron Greyjoy,Bolton,Greyjoy,win,siege,0.0,0.0,Moat Cailin,The North
+Sack of Saltpans,300,Unknown,Unknown,Brave Companions,,win,razing,0.0,0.0,Saltpans,The Riverlands
+Retaking of Deepwood Motte,300,Stannis Baratheon,Balon/Euron Greyjoy,Baratheon,Greyjoy,win,pitched battle,0.0,0.0,Deepwood Motte,The North
+Battle of the Shield Islands,300,Balon/Euron Greyjoy,Joffrey/Tommen Baratheon,Greyjoy,Tyrell,win,pitched battle,0.0,0.0,Shield Islands,The Reach
+"Invasion of Ryamsport, Vinetown, and Starfish Harbor",300,Balon/Euron Greyjoy,Joffrey/Tommen Baratheon,Greyjoy,Tyrell,win,razing,0.0,0.0,"Ryamsport, Vinetown, Starfish Harbor",The Reach
+Second Seige of Storm's End,300,Joffrey/Tommen Baratheon,Stannis Baratheon,Baratheon,Baratheon,win,siege,0.0,0.0,Storm's End,The Stormlands
+Siege of Dragonstone,300,Joffrey/Tommen Baratheon,Stannis Baratheon,Baratheon,Baratheon,win,siege,0.0,0.0,Dragonstone,The Stormlands
+Siege of Riverrun,300,Joffrey/Tommen Baratheon,Robb Stark,Lannister,Tully,win,siege,0.0,0.0,Riverrun,The Riverlands
+Siege of Raventree,300,Joffrey/Tommen Baratheon,Robb Stark,Bracken,Blackwood,win,siege,0.0,1.0,Raventree,The Riverlands
+Siege of Winterfell,300,Stannis Baratheon,Joffrey/Tommen Baratheon,Baratheon,Bolton,Unknown,,,,Winterfell,The North
