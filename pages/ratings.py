@@ -148,3 +148,64 @@ fig.update_layout(
 
 if __name__ == "__main__":
     fig.show()
+
+# ── Season average ratings bar chart ──────────────────────
+season_avg = episodes.groupby("season").agg(
+    avg_rating=("rating", "mean"),
+    avg_viewers=("viewers", "mean"),
+    total_votes=("vote_count", "sum")
+).reset_index()
+
+season_colors_bar = [
+    "#2196F3", "#4CAF50", "#FF9800", "#9C27B0",
+    "#F44336", "#00BCD4", "#FF5722", "#607D8B"
+]
+
+fig2 = go.Figure()
+
+fig2.add_trace(go.Bar(
+    x=[f"Season {s}" for s in season_avg["season"]],
+    y=season_avg["avg_rating"].round(2),
+    marker_color=season_colors_bar,
+    text=season_avg["avg_rating"].round(2),
+    textposition="outside",
+    hovertemplate=(
+        "<b>%{x}</b><br>"
+        "Avg Rating: %{y}<br>"
+        "Avg Viewers: %{customdata[0]:.2f}M<br>"
+        "Total Votes: %{customdata[1]:,}<extra></extra>"
+    ),
+    customdata=season_avg[["avg_viewers", "total_votes"]].values,
+))
+
+fig2.update_layout(
+    title=dict(
+        text="Game of Thrones — Average IMDb Rating by Season",
+        font=dict(size=18)
+    ),
+    xaxis=dict(title="Season", showgrid=False),
+    yaxis=dict(
+        title="Average IMDb Rating",
+        range=[5.0, 10.0],
+        showgrid=True,
+        gridcolor="rgba(200,200,200,0.3)"
+    ),
+    plot_bgcolor="white",
+    paper_bgcolor="white",
+    height=450,
+    margin=dict(l=60, r=60, t=80, b=60),
+    showlegend=False,
+)
+
+# Add a reference line at overall average
+overall_avg = episodes["rating"].mean()
+fig2.add_hline(
+    y=overall_avg,
+    line_dash="dash",
+    line_color="gray",
+    annotation_text=f"Series avg: {overall_avg:.2f}",
+    annotation_position="top left"
+)
+
+if __name__ == "__main__":
+    fig2.show()
