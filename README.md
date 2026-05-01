@@ -14,7 +14,7 @@ captured and then lost its audience across 8 seasons and 73 episodes.
   with a logistic regression predicting character deaths
 
 ## Live app
-[View the Streamlit app](#) ← will update with live link after deployment
+https://got-data-analysis-agoqm2ftftjezbqy2qiwv5.streamlit.app/
 
 ## Tech stack
 Python · Pandas · Plotly · NetworkX · PyVis · Scikit-learn · Streamlit
